@@ -3,18 +3,18 @@ void main() {
 
   ///Mencari Palindrom dengan membalikkan kata
 
-/*   String temp = "";
+   String temp = "";
   String kata = "kakak";
 
   for (var i = kata.length - 1; i >= 0; i--) {
     kata = kata.toLowerCase();
     temp = temp + String.fromCharCode(kata.codeUnitAt(i));
   }
-  (temp == kata) ? print("palindrom") : print("Bukan palindrom"); */
+  (temp == kata) ? print("palindrom") : print("Bukan palindrom"); 
 
   //Mencari Palindrom dengan membandingkan kata pertama dan terakhir
 
-  for (var kata in Value) {
+ /* for (var kata in Value) {
     kata = kata.toLowerCase();
 
     print(
@@ -30,3 +30,4 @@ bool isPalindrom(String kata) {
   }
   return true;
 }
+*/
